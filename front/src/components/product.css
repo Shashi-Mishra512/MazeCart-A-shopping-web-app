@@ -1,0 +1,60 @@
+.Pheader{
+    font-family: sans-serif;
+    text-decoration: overline;
+    text-decoration-color: rgb(91, 0, 152);
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-top:12px;
+}
+
+.Product-Container{
+    color:rgb(252, 252, 252);
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    overflow:hidden;
+    width:300px;
+    height:500px;
+    margin:20px 7px 20px 7px;
+    flex: 1 0 250px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+    
+}
+.Pdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.Pname{
+    padding: 7px;
+}
+.Price{
+    padding: 12px;
+}
+
+.cartb{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    
+}
+.acart {
+    background-color: rgb(52, 192, 5);
+}
+
+.rcart{
+    background-color: rgb(145, 9, 45);
+}
+
+.acart > p, .rcart >p{
+    padding:10px;
+}
+
+.List{
+    display: flex;
+    flex-wrap: wrap;
+}
